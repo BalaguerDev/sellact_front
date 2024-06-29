@@ -1,0 +1,225 @@
+{
+  "user": {
+    "name": "Carlos Ruíz",
+    "employeNum": "U0A832Z",
+    "position": "Comercial Noroeste",
+    "img": "https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  "datos": [
+    {
+      "titulo": "Resumen",
+      "datos": [
+        {
+          "etiqueta": "Facturación mensual",
+          "valor": "181.142 €",
+          "cambio": "29.10% este mes"
+        },
+        {
+          "etiqueta": "Facturación anual",
+          "valor": "827.142 €",
+          "cambio": "45.2% este año"
+        },
+        {
+          "etiqueta": "Ventas objetivo",
+          "valor": "1.510.311 €",
+          "progreso": "140.311 €"
+        }
+      ]
+    },
+    {
+      "titulo": "Ruta de hoy",
+      "datos": [
+        {
+          "etiqueta": "Clientes a visitar",
+          "valor": "8",
+          "cambio": "29%"
+        },
+        {
+          "etiqueta": "Siguiente cliente",
+          "valor": "Ferreteria ProInd"
+        }
+      ],
+      "clientes": [
+        "Ferreteria ProInd",
+        "Cascal Industrial",
+        "Profer",
+        "Comercial Jota",
+        "Promos",
+        "Gas Gas",
+        "Peris Polo",
+        "Materials Cons. Igor"
+      ],
+      "mapa": "[Ver en Mapas](https://www.google.com/maps)"
+    },
+    {
+      "titulo": "Cartera",
+      "datos": [
+        {
+          "etiqueta": "Clientes totales",
+          "valor": "138"
+        }
+      ],
+      "busqueda": {
+        "campo": "Cliente",
+        "placeholder": "Buscar"
+      },
+      "clientes": [
+        {
+          "nombre": "Ferreteria ProInd",
+          "ventas_2023": "100.000",
+          "ventas_2024": "148.267",
+          "crecimiento": "48.26% este año"
+        },
+        {
+          "nombre": "Gas Gas",
+          "ventas_2023": "128.211",
+          "ventas_2024": "118.267",
+          "crecimiento": "7.75% este año"
+        },
+        {
+          "nombre": "Berplai",
+          "ventas_2023": "52.422",
+          "ventas_2024": "58.922",
+          "crecimiento": "12.39% este año"
+        },
+        {
+          "nombre": "Ferretero Tomás",
+          "ventas_2023": "28.211",
+          "ventas_2024": "42.267",
+          "crecimiento": "49.82% este año"
+        }
+      ]
+    },
+    {
+      "titulo": "Productos más comprados",
+      "productos": [
+        {
+          "codigo": "C29110",
+          "descripcion": "Taladro percutor",
+          "unidades_anio_anterior": 218,
+          "precio_medio": 157.76,
+          "financiacion": true,
+          "stock": 389,
+          "pedido": false
+        },
+        {
+          "codigo": "C11292",
+          "descripcion": "Broca 6x 115mm",
+          "unidades_anio_anterior": 177,
+          "precio_medio": 3.21,
+          "financiacion": true,
+          "stock": 1202,
+          "pedido": false
+        },
+        {
+          "codigo": "C21110",
+          "descripcion": "Destornillador VDE",
+          "unidades_anio_anterior": 165,
+          "precio_medio": 32.16,
+          "financiacion": false,
+          "stock": 100,
+          "pedido": false
+        }
+      ]
+    },
+    {
+      "titulo": "Gráfica ventas 2023-2024",
+      "ejes": {
+        "x": "Mes",
+        "y": "Ventas (€)"
+      },
+      "series": [
+        {
+          "nombre": "Ventas 2023",
+          "datos": [
+            {
+              "x": "Ene",
+              "y": 10000
+            },
+            {
+              "x": "Feb",
+              "y": 12000
+            },
+            {
+              "x": "Mar",
+              "y": 15000
+            },
+            {
+              "x": "Abr",
+              "y": 20000
+            },
+            {
+              "x": "May",
+              "y": 22000
+            },
+            {
+              "x": "Jun",
+              "y": 25000
+            },
+            {
+              "x": "Jul",
+              "y": 30000
+            },
+            {
+              "x": "Ago",
+              "y": 32000
+            },
+            {
+              "x": "Sep",
+              "y": null
+            },
+            {
+              "x": "Oct",
+              "y": null
+            },
+            {
+              "x": "Nov",
+              "y": null
+            },
+            {
+              "x": "Dic",
+              "y": null
+            }
+          ]
+        },
+        {
+          "nombre": "Ventas 2024",
+          "datos": [
+            {
+              "x": "Ene",
+              "y": 11000
+            },
+            {
+              "x": "Feb",
+              "y": 13500
+            },
+            {
+              "x": "Mar",
+              "y": 16500
+            },
+            {
+              "x": "Abr",
+              "y": 21000
+            },
+            {
+              "x": "May",
+              "y": 24000
+            },
+            {
+              "x": "Jun",
+              "y": 27000
+            },
+            {
+              "x": "Jul",
+              "y": 33000
+            },
+            {
+              "x": "Ago",
+              "y": 35000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
