@@ -24,12 +24,9 @@ const SidebarItemComponent = ({
     <FontAwesomeIcon
       icon={item.icon}
       className="icon"
-      style={{
-        color: isHovered || isSelected ? '#FFFFFF' : '#9197B3',
-      }}
     />
     {isOpen && (
-      <SidebarItemText isOpen={isOpen}>
+      <SidebarItemText isOpen={isOpen} isSelected={isSelected} isHovered={isHovered}>
         {item.label}
         <FontAwesomeIcon icon={faChevronRight} className="chevron-icon" />
       </SidebarItemText>

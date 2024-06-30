@@ -1,10 +1,17 @@
-import { PageContainer } from '../../styles/GlobalStyles';
+import { useEffect } from 'react';
+import { H2Title, PageContainer } from '../../styles/GlobalStyles';
+import { useUserStore } from '../../store/useUserStore';
 
 const Home = () => {
+  const { userData, fetchUserData } = useUserStore();
+
+  useEffect(() => {
+    fetchUserData();
+  }, [fetchUserData]);
+
   return (
     <PageContainer>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home Page!</p>
+      <H2Title>Buenos {userData?.user?.name}👋🏼</H2Title>
     </PageContainer>
   );
 };

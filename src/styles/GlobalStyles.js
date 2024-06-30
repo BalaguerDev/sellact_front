@@ -44,3 +44,8 @@ export const DashboardContainer = styled.div.withConfig({
 export const PageContainer = styled.div`
   padding: 20px;
 `;
+
+export const H2Title = styled.h2`
+  font-size: 24px;
+  font-weight: 600;
+`
