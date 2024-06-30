@@ -7,22 +7,68 @@
   },
   "datos": [
     {
-      "titulo": "Resumen",
-      "datos": [
+      "objetivos": [
         {
-          "etiqueta": "Facturación mensual",
-          "valor": "181.142 €",
-          "cambio": "29.10% este mes"
-        },
-        {
-          "etiqueta": "Facturación anual",
-          "valor": "827.142 €",
-          "cambio": "45.2% este año"
-        },
-        {
-          "etiqueta": "Ventas objetivo",
-          "valor": "1.510.311 €",
-          "progreso": "140.311 €"
+          "enero":{
+            "objetivo": 110.311,
+            "ventas": 121.142,
+            "lastYear": 120.388
+          },
+          "febrero":{
+            "objetivo": 145351,
+            "ventas": 174521,
+            "lastYear": 130388
+          },
+          "marzo":{
+            "objetivo": 93643,
+            "ventas": 81142,
+            "lastYear": 70388
+          },
+          "abril":{
+            "objetivo": 98311,
+            "ventas": 120142,
+            "lastYear": 89.388
+          },
+          "mayo":{
+            "objetivo": 120551,
+            "ventas": 121152,
+            "lastYear": 116388
+          },
+          "junio":{
+            "objetivo": 132656,
+            "ventas": 153177,
+            "lastYear": 120388
+          },
+          "julio":{
+            "objetivo": 140311,
+            "ventas": 181142,
+            "lastYear": 120388
+          },
+          "agosto":{
+            "objetivo": 113411,
+            "ventas": 0,
+            "lastYear": 98388
+          },
+          "septiembre":{
+            "objetivo": 98311,
+            "ventas": 0,
+            "lastYear": 120388
+          },
+          "octubre":{
+            "objetivo": 140311,
+            "ventas": 0,
+            "lastYear": 120388
+          },
+          "noviembre":{
+            "objetivo": 140311,
+            "ventas": 0,
+            "lastYear": 120388
+          },
+          "diciembre":{
+            "objetivo": 132656,
+            "ventas": 0,
+            "lastYear": 120388
+          }
         }
       ]
     },

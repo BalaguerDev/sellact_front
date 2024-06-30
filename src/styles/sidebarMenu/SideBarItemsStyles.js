@@ -3,45 +3,43 @@ import styled from "styled-components";
 
 export const SidebarItem = styled(Link).withConfig({
   shouldForwardProp: (prop) =>
-    !["isOpen", "isSelected", "isHovered"].includes(prop),
+    !["$isOpen", "$isSelected", "$isHovered"].includes(prop),
 })`
   padding: 20px 10px;
   height: 40px;
-  width: ${(props) => (props.isOpen ? "240px" : "40px")};
+  width: ${(props) => (props.$isOpen ? "240px" : "40px")};
   color: ${(props) =>
-    props.isSelected || props.isHovered ? "#FFFFFF" : "#9197B3"};
+    props.$isSelected || props.$isHovered ? "#FFFFFF" : "#9197B3"};
   text-decoration: none;
   display: flex;
   align-items: center;
   position: absolute;
   transition: background-color 0.3s, color 0.3s;
   background-color: ${(props) =>
-    props.isSelected ? "#225282" : "transparent"};
+    props.$isSelected ? "#225282" : "transparent"};
   border-radius: 7px;
 
   &:hover {
-    background: ${(props) => (props.isSelected ? "" : "#a1b7cb")};
+    background: ${(props) => (props.$isSelected ? "" : "#a1b7cb")};
     color: #ffffff;
   }
 
   .icon {
-    margin-right: ${(props) => (props.isOpen ? "20px" : "0")};
+    margin-right: ${(props) => (props.$isOpen ? "20px" : "0")};
     width: 20px;
     height: 20px;
     transition: margin-right 0.3s;
     color: ${(props) =>
-      props.isHovered || props.isSelected ? "#FFFFFF" : "#9197B3"};
+      props.$isHovered || props.$isSelected ? "#FFFFFF" : "#9197B3"};
   }
 `;
 
 export const SidebarItemText = styled.span.withConfig({
-  shouldForwardProp: (prop) => prop !== "isOpen",
+  shouldForwardProp: (prop) => !["$isOpen", "$isSelected", "$isHovered"].includes(prop),
 })`
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex: 1;
-  color: ${(props) => (props.isSelected || props.isHovered ? "#FFFFFF" : "#9197B3")};
-
-
+  color: ${(props) => (props.$isSelected || props.$isHovered ? "#FFFFFF" : "#9197B3")};
 `;

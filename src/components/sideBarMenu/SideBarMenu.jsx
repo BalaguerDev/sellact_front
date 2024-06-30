@@ -25,7 +25,7 @@ const SidebarMenu = () => {
 
   return (
     <SidebarContainer
-      isOpen={isOpen}
+      $isOpen={isOpen}
       onMouseEnter={() => !isOpen && toggleSidebar()}
       onMouseLeave={() => isOpen && toggleSidebar()}
     >

@@ -14,19 +14,19 @@ const SidebarItemComponent = ({
 }) => (
   <SidebarItem
     to={item.to}
-    isOpen={isOpen}
+    $isOpen={isOpen}
     onClick={onItemClick}
     onMouseEnter={onItemHover}
     onMouseLeave={onItemLeave}
-    isSelected={isSelected}
-    isHovered={isHovered}
+    $isSelected={isSelected}
+    $isHovered={isHovered}
   >
     <FontAwesomeIcon
       icon={item.icon}
       className="icon"
     />
     {isOpen && (
-      <SidebarItemText isOpen={isOpen} isSelected={isSelected} isHovered={isHovered}>
+      <SidebarItemText $isOpen={isOpen} $isSelected={isSelected} $isHovered={isHovered}>
         {item.label}
         <FontAwesomeIcon icon={faChevronRight} className="chevron-icon" />
       </SidebarItemText>

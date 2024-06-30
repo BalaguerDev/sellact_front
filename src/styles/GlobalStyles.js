@@ -1,4 +1,3 @@
-
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
@@ -42,10 +41,16 @@ export const DashboardContainer = styled.div.withConfig({
 `;
 
 export const PageContainer = styled.div`
-  padding: 20px;
+  padding: 40px 80px;
 `;
 
 export const H2Title = styled.h2`
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
-`
+`;
+export const H3Title = styled.h2`
+  font-size: 16px;
+  font-weight: 600;
+  color: #225282;
+  padding-bottom: 10px;
+`;

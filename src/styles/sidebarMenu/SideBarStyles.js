@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const SidebarContainer = styled.div.withConfig({
-  shouldForwardProp: (prop) => prop !== "isOpen",
+  shouldForwardProp: (prop) => prop !== "$isOpen",
 })`
-  width: ${(props) => (props.isOpen ? "280px" : "80px")};
+  width: ${(props) => (props.$isOpen ? "280px" : "80px")};
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -18,4 +18,3 @@ export const SidebarItemContainer = styled.div`
   padding: 5px 20px;
   margin: 18px 0;
 `;
-
